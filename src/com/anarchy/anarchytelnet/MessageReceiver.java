@@ -1,3 +1,5 @@
+// n'est pas utilisé (c'était pour un test)
+
 package com.anarchy.anarchytelnet;
 
 import android.app.Activity;
