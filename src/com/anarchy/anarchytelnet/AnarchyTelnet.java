@@ -70,7 +70,7 @@ public class AnarchyTelnet extends Thread implements Runnable {
 					nouveauMessage += stringData;
 				}
 				// on ajoute ces donnees dans le StringBuffer
-				sb.append(s);
+				sb.append(stringData);
 				/* on lance un nouveau thread pour modifier le texte dans l'appli
 				c'est indispensable car sinon on ne peut pas modifier l'interface
 				de l'activite de maniere asynchrone  et ca ferait tout ramer*/
